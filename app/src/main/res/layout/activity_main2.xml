@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/character_info"
+    android:orientation="vertical">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="436dp">
+
+        <ImageView
+            android:id="@+id/imageView73"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginBottom="106dp"
+            android:layout_marginStart="91dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@android:drawable/list_selector_background" />
+
+        <ImageView
+            android:id="@+id/imageView75"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginBottom="104dp"
+            android:layout_marginStart="252dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@android:drawable/list_selector_background" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <TableLayout
+        android:layout_width="401dp"
+        android:layout_height="201dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView65"
+                android:layout_width="40dp"
+                android:layout_height="38dp"
+                app:srcCompat="@drawable/helmet_poe" />
+
+            <ImageView
+                android:id="@+id/imageView69"
+                android:layout_width="40dp"
+                android:layout_height="38dp"
+                app:srcCompat="@drawable/helmet_poe" />
+
+            <ImageView
+                android:id="@+id/imageView68"
+                android:layout_width="40dp"
+                android:layout_height="38dp"
+                app:srcCompat="@drawable/helmet_poe" />
+
+            <ImageView
+                android:id="@+id/imageView66"
+                android:layout_width="40dp"
+                android:layout_height="38dp"
+                app:srcCompat="@drawable/helmet_poe" />
+
+            <ImageView
+                android:id="@+id/imageView70"
+                android:layout_width="38dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/amulet_poe" />
+
+            <ImageView
+                android:id="@+id/imageView72"
+                android:layout_width="40dp"
+                android:layout_height="38dp"
+                app:srcCompat="@drawable/helmet_poe" />
+
+            <ImageView
+                android:id="@+id/imageView67"
+                android:layout_width="40dp"
+                android:layout_height="38dp"
+                app:srcCompat="@drawable/helmet_poe" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
